@@ -1,4 +1,4 @@
-name: Build OnePlus_10t-CPH245_SukiSU Ultra All
+name: Build OnePlus_SukiSU Ultra All
 on:
   workflow_dispatch:
     inputs:
