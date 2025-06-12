@@ -1,4 +1,4 @@
-name: Build OnePlus_10t-CPH245_SukiSU Ultra All
+name: Build OnePlus_10t-CPH2415_SukiSU Ultra All
 on:
   workflow_dispatch:
     inputs:
@@ -153,8 +153,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt update && sudo apt upgrade -y
-          sudo apt install -y python3 git curl
+          sudo apt update
           sudo apt install -y python3 git curl ccache
 
       - name: Restore ccache
